@@ -1,0 +1,11 @@
+package New;
+
+public class _01_Installation {
+
+	public void sample {
+		
+		System.out.println("TestNG");
+		
+	}
+
+}
