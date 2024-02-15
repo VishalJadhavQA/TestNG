@@ -1,5 +1,7 @@
 package tutorials.demo;
 
+import java.util.Date;
+
 import org.testng.annotations.Test;
 
 public class _01_TestNG_Class {
@@ -11,6 +13,7 @@ public class _01_TestNG_Class {
 	public void sample() {
 		
 		System.out.println("TestNG");
+		
 		
 	}
 
