@@ -1,0 +1,9 @@
+package tutorials.demo;
+
+import org.testng.annotations.Test;
+
+public class Priority_Attribute {
+  @Test
+  public void f() {
+  }
+}

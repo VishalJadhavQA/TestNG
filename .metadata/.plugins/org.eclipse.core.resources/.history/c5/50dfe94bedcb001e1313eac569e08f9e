@@ -1,0 +1,32 @@
+package tutorials.demo;
+
+import org.testng.annotations.Test;
+
+public class Priority_Attribute {
+  @Test
+  public void First() {
+	  System.out.println("First test Method");
+  }
+  
+  @Test
+  public void Second() {
+	  System.out.println("Second test Method");
+  }
+  
+  @Test
+  public void Third() {
+	  System.out.println("Third test Method");
+  }
+  
+  @Test
+  public void Fourth() {
+	  System.out.println("Fourth test Method");
+  }
+  
+  @Test
+  public void Fifth() {
+	  System.out.println("Fifth test Method");
+  }
+  
+  
+}
