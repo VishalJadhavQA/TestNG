@@ -657,3 +657,23 @@
 2024-02-16 16:27:01,453 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\main\resources
 2024-02-16 16:27:01,456 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-02-16 16:27:01,456 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\test\resources
+2024-02-16 16:56:05,773 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-19 07:57:04,470 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-02-21 11:12:37,849 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-02-21 15:56:20,621 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-21 15:58:27,169 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 15:58:27,172 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\main\resources
+2024-02-21 15:58:27,175 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 15:58:27,175 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\test\resources
+2024-02-21 15:59:46,989 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 15:59:46,989 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\main\resources
+2024-02-21 15:59:46,991 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 15:59:46,991 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\test\resources
+2024-02-21 16:06:42,518 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 16:06:42,519 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\main\resources
+2024-02-21 16:06:42,522 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 16:06:42,524 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\test\resources
+2024-02-21 16:07:17,994 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 16:07:17,995 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\main\resources
+2024-02-21 16:07:18,002 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 16:07:18,002 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\src\test\resources

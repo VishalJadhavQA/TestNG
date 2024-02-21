@@ -1245,3 +1245,239 @@ java -ea -classpath C:\Users\Vishal Jadhav\Downloads\eclipse-java-2022-12-R-win3
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 57238 -protocol json -d C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\test-output C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\testng.xml
 java -ea -classpath C:\Users\Vishal Jadhav\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\445\0\.cp\lib\testng-remote.jar:C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\target\test-classes:C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\target\classes:C:\Users\Vishal Jadhav\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Vishal Jadhav\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Vishal Jadhav\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar:C:\Users\Vishal Jadhav\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\Vishal Jadhav\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\Vishal Jadhav\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Vishal Jadhav\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar:C:\Users\Vishal Jadhav\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar:C:\Users\Vishal Jadhav\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar:C:\Users\Vishal Jadhav\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar:C:\Users\Vishal Jadhav\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar:C:\Users\Vishal Jadhav\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar:C:\Users\Vishal Jadhav\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\Vishal Jadhav\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar:C:\Users\Vishal Jadhav\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar:C:\Users\Vishal Jadhav\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar:C:\Users\Vishal Jadhav\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\Vishal Jadhav\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar:C:\Users\Vishal Jadhav\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\Vishal Jadhav\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\Vishal Jadhav\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\Vishal Jadhav\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\Vishal Jadhav\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\Vishal Jadhav\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\Vishal Jadhav\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar:C:\Users\Vishal Jadhav\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar:C:\Users\Vishal Jadhav\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\Vishal Jadhav\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar:C:\Users\Vishal Jadhav\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\Vishal Jadhav\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\Vishal Jadhav\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar org.testng.remote.RemoteTestNG -serport 57238 -protocol json -d C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\test-output C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\Learn_TestNG\testng.xml
+!SESSION 2024-02-16 16:55:42.787 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\Vishal Jadhav\eclipse-workspace\TestNG -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-16 16:55:44.800
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-16 16:55:46.790
+!MESSAGE Logback config file: C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-16 16:55:55.471
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-16 16:55:55.471
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-16 16:55:55.471
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-16 16:56:06.190
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vishal Jadhav'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-02-19 07:56:45.017 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-19 07:56:46.796
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-19 07:56:55.524
+!MESSAGE Logback config file: C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-19 07:56:58.906
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-19 07:56:58.906
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-19 07:56:58.906
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-19 07:57:05.133
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vishal Jadhav'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-02-21 11:04:15.176 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-21 11:04:19.519
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-21 11:12:15.513
+!MESSAGE Logback config file: C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-21 11:12:25.490
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-21 11:12:25.490
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-21 11:12:25.490
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-21 11:12:38.229
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vishal Jadhav'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-02-21 15:55:52.163 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Vishal Jadhav\eclipse-workspace\TestNG -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-21 15:55:54.981
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-21 15:55:58.295
+!MESSAGE Logback config file: C:\Users\Vishal Jadhav\eclipse-workspace\TestNG\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-21 15:56:10.041
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-21 15:56:10.041
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-21 15:56:10.041
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-21 15:56:20.919
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vishal Jadhav'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
