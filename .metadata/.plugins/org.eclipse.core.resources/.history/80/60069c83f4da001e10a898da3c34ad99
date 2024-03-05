@@ -1,0 +1,10 @@
+package tutorials.demo;
+
+public class _05_Soft_Assertions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

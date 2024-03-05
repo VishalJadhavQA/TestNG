@@ -16,7 +16,8 @@ public class _02_Login {
 	@Test(priority = 1)
 	public void LoginWithValidCredentials() {
 		
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().clearDriverCache().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		

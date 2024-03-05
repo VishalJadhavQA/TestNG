@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;tutorials.demo._04_Assertions&apos; to &apos;_04_Hard_Assertions&apos;&#x0D;&#x0A;- Original project: &apos;Learn_TestNG&apos;&#x0D;&#x0A;- Original element: &apos;tutorials.demo._04_Assertions&apos;&#x0D;&#x0A;- Renamed element: &apos;tutorials.demo._04_Hard_Assertions&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;_04_Assertions&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;tutorials.demo{_04_Assertions.java[_04_Assertions" matchStrategy="1" name="_04_Hard_Assertions" qualified="false" references="true" similarDeclarations="false" stamp="1709645162416" textual="false" version="1.0"/>
+</session>
