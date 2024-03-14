@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tutorials.demo._05_Soft_Assertions">
+      <class name="tutorials.demo._06_Annotations">
         <methods>
-          <include name="demo_class"/>
+          <include name="aftertest"/>
+          <include name="beforemethod"/>
+          <include name="aftersuite"/>
+          <include name="loginwithInvalidemail"/>
+          <include name="beforetest"/>
+          <include name="beforeclass"/>
+          <include name="afterclass"/>
+          <include name="beforesuite"/>
+          <include name="aftermethod"/>
         </methods>
-      </class> <!-- tutorials.demo._05_Soft_Assertions -->
+      </class> <!-- tutorials.demo._06_Annotations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

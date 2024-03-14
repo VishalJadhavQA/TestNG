@@ -1,0 +1,41 @@
+package tutorials.demo;
+
+import org.testng.annotations.Test;
+
+public class _06_Annotations {
+
+	
+	
+	
+	@Test
+	public void loginwithvalidcredentials() {
+		
+		System.out.println("login with valid credentials");
+	}
+	
+	@Test
+	public void loginwithInvalidemail() {
+		
+		System.out.println("login with Invalid email");
+	}
+	
+	@Test
+	public void loginwithInvalidpassword() {
+		
+		System.out.println("login with Invalid password");
+	}
+	
+	@Test
+	public void loginwithInvalidcredentials() {
+		
+		System.out.println("login with Invalid credentials");
+	}
+	
+	@Test
+	public void loginwithoutvalidcredentials() {
+		
+		System.out.println("login without credentials");
+	}
+	
+
+}

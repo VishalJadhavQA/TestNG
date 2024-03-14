@@ -1,0 +1,125 @@
+package tutorials.demo;
+
+import org.apache.commons.lang3.ObjectUtils.Null;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class _06_Annotations {
+	
+	WebDriver driver = null;
+	
+	@BeforeSuite
+	public void beforesuite() {
+		
+		System.out.println("Inside BeforeSuite");
+	}
+	
+	
+	@AfterSuite
+	public void aftersuite() {
+		
+		System.out.println("Inside AfterSuite");
+	}
+	
+	@BeforeTest
+	public void beforetest() {
+		
+		System.out.println("Inside BeforeTest");
+	}
+	
+	@AfterTest
+	public void aftertest() {
+		
+		System.out.println("Inside AfterTest");
+	}
+	
+	@BeforeClass
+	public void beforeclass() {
+		
+		System.out.println("Inside BeforeClass");
+	}
+	
+		
+	@AfterClass
+	public void afterclass() {
+		
+		System.out.println("Inside afterClass");
+	}
+	
+	@BeforeMethod
+	public void beforemethod() {
+		System.out.println("Inside beforeMethod");
+		
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://tutorialsninja.com/demo/");
+		driver.findElement(By.linkText("My Account")).click();
+		driver.findElement(By.linkText("Login")).click();
+	}
+	
+	@AfterMethod
+	public void aftermethod() {
+		driver.quit();
+		System.out.println("Inside afterMethod");
+	}
+	
+	
+	
+	@Test(priority = 1)
+	public void loginwithvalidcredentials() {
+	
+		
+		driver.findElement(By.id("input-email")).sendKeys("Test.demo@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("Test@12345");
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
+		Assert.assertTrue(driver.findElement(By.xpath("//h2[text()='My Account']")).isDisplayed());
+		System.out.println("login with valid credentials");
+	}
+	
+	@Test(priority = 2)
+	public void loginwithInvalidemail() {
+		
+		
+		driver.findElement(By.id("input-email")).sendKeys("Test.demo@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("Test@12345");
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
+		String actualvalue = driver.findElement(By.xpath("//div[contains(@class,'alert-dismissible')]")).getText();
+		String expectedvalue = "Warning: No match for E-Mail Address and/or Password.";
+		Assert.assertEquals(actualvalue, expectedvalue);
+		System.out.println("login with Invalid email");
+	}
+	
+	@Test(priority = 3)
+	public void loginwithInvalidpassword() {
+		
+		System.out.println("login with Invalid password");
+	}
+	
+	@Test(priority = 4)
+	public void loginwithInvalidcredentials() {
+		
+		System.out.println("login with Invalid credentials");
+	}
+	
+	@Test(priority = 5)
+	public void loginwithoutvalidcredentials() {
+		
+		System.out.println("login without credentials");
+	}
+	
+
+}

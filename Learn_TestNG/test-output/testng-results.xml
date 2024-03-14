@@ -1,61 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-05T19:25:50 IST" name="Default suite" finished-at="2024-03-05T19:25:57 IST" duration-ms="6876">
+  <suite started-at="2024-03-14T18:17:44 IST" name="Default suite" finished-at="2024-03-14T18:17:58 IST" duration-ms="13802">
     <groups>
     </groups>
-    <test started-at="2024-03-05T19:25:50 IST" name="Default test" finished-at="2024-03-05T19:25:57 IST" duration-ms="6876">
-      <class name="tutorials.demo._05_Soft_Assertions">
-        <test-method signature="demo_class()[pri:0, instance:tutorials.demo._05_Soft_Assertions@2d52216b]" started-at="2024-03-05T19:25:50 IST" name="demo_class" finished-at="2024-03-05T19:25:57 IST" duration-ms="6812" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Your Store - Error] but found [Your Store],
-expected [https://tutorialsninja.com/demo/Error] but found [https://tutorialsninja.com/demo/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Your Store - Error] but found [Your Store],
-expected [https://tutorialsninja.com/demo/Error] but found [https://tutorialsninja.com/demo/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at tutorials.demo._05_Soft_Assertions.demo_class(_05_Soft_Assertions.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test started-at="2024-03-14T18:17:44 IST" name="Default test" finished-at="2024-03-14T18:17:58 IST" duration-ms="13802">
+      <class name="tutorials.demo._06_Annotations">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:44 IST" name="beforesuite" finished-at="2024-03-14T18:17:44 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo_class -->
-      </class> <!-- tutorials.demo._05_Soft_Assertions -->
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:44 IST" name="beforetest" finished-at="2024-03-14T18:17:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:44 IST" name="beforeclass" finished-at="2024-03-14T18:17:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:44 IST" name="beforemethod" finished-at="2024-03-14T18:17:47 IST" duration-ms="2811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="loginwithvalidcredentials()[pri:1, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:47 IST" name="loginwithvalidcredentials" finished-at="2024-03-14T18:17:48 IST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredentials -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:48 IST" name="aftermethod" finished-at="2024-03-14T18:17:48 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:48 IST" name="beforemethod" finished-at="2024-03-14T18:17:50 IST" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="loginwithInvalidemail()[pri:2, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:50 IST" name="loginwithInvalidemail" finished-at="2024-03-14T18:17:50 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidemail -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:50 IST" name="aftermethod" finished-at="2024-03-14T18:17:51 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:51 IST" name="beforemethod" finished-at="2024-03-14T18:17:53 IST" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="loginwithInvalidpassword()[pri:3, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:53 IST" name="loginwithInvalidpassword" finished-at="2024-03-14T18:17:53 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidpassword -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:53 IST" name="aftermethod" finished-at="2024-03-14T18:17:53 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:53 IST" name="beforemethod" finished-at="2024-03-14T18:17:55 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="loginwithInvalidcredentials()[pri:4, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:55 IST" name="loginwithInvalidcredentials" finished-at="2024-03-14T18:17:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidcredentials -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:55 IST" name="aftermethod" finished-at="2024-03-14T18:17:55 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:55 IST" name="beforemethod" finished-at="2024-03-14T18:17:58 IST" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="loginwithoutvalidcredentials()[pri:5, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:58 IST" name="loginwithoutvalidcredentials" finished-at="2024-03-14T18:17:58 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithoutvalidcredentials -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:58 IST" name="aftermethod" finished-at="2024-03-14T18:17:58 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:58 IST" name="afterclass" finished-at="2024-03-14T18:17:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:58 IST" name="aftertest" finished-at="2024-03-14T18:17:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:tutorials.demo._06_Annotations@69e153c5]" started-at="2024-03-14T18:17:58 IST" name="aftersuite" finished-at="2024-03-14T18:17:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- tutorials.demo._06_Annotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
