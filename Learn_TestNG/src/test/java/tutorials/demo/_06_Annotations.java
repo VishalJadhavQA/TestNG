@@ -95,7 +95,7 @@ public class _06_Annotations {
 	public void loginwithInvalidemail() {
 		
 		
-		driver.findElement(By.id("input-email")).sendKeys("Test.demo1@gmail.com");
+		driver.findElement(By.id("input-email")).sendKeys("Test.demo123@gmail.com");
 		driver.findElement(By.id("input-password")).sendKeys("Test@12345");
 		driver.findElement(By.xpath("//input[@value='Login']")).click();
 		
@@ -109,17 +109,44 @@ public class _06_Annotations {
 	@Test(priority = 3)
 	public void loginwithInvalidpassword() {
 		
+		driver.findElement(By.id("input-email")).sendKeys("Test.demo@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("Test@12");
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
+		
+		WebElement actualvalue = driver.findElement(By.xpath("//div[contains(@class,'alert alert-danger alert-dismissible')]"));
+		
+		Assert.assertEquals(actualvalue.getText(),
+				"Warning: No match for E-Mail Address and/or Password.");
+				
 		System.out.println("login with Invalid password");
 	}
 	
 	@Test(priority = 4)
 	public void loginwithInvalidcredentials() {
 		
+		driver.findElement(By.id("input-email")).sendKeys("Test.demo1@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("Test@12");
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
+		
+		WebElement actualvalue = driver.findElement(By.xpath("//div[contains(@class,'alert alert-danger alert-dismissible')]"));
+		
+		Assert.assertEquals(actualvalue.getText(),
+				"Warning: No match for E-Mail Address and/or Password.");
+		
 		System.out.println("login with Invalid credentials");
 	}
 	
 	@Test(priority = 5)
 	public void loginwithoutvalidcredentials() {
+		
+		driver.findElement(By.id("input-email")).sendKeys(" ");
+		driver.findElement(By.id("input-password")).sendKeys(" ");
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
+		
+		WebElement actualvalue = driver.findElement(By.xpath("//div[contains(@class,'alert alert-danger alert-dismissible')]"));
+		
+		Assert.assertEquals(actualvalue.getText(),
+				"Warning: No match for E-Mail Address and/or Password.");
 		
 		System.out.println("login without credentials");
 	}
