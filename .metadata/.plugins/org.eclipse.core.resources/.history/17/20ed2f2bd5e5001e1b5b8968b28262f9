@@ -1,0 +1,33 @@
+package tutorials.demo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class _07_Parameters {
+	
+	
+	@Parameters ({"url","email","password"})
+	@Test
+	public void test() {
+		
+		WebDriverManager.chromedriver().setup();
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("");
+		driver.findElement(By.linkText("My Account")).click();
+		driver.findElement(By.linkText("Login")).click();
+		
+		driver.findElement(By.id("input-email")).sendKeys("");
+		driver.findElement(By.id("input-password")).sendKeys("");
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
+		
+		
+	}
+	
+}
