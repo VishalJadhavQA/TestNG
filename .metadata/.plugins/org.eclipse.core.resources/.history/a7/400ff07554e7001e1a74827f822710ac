@@ -1,0 +1,29 @@
+package tutorials.demo;
+
+import javax.print.DocFlavor.CHAR_ARRAY;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		String str = "Hello";
+		
+		
+		char[] chars = str.toCharArray();
+        int length = str.length();
+
+        for (int i = 0; i < length / 2; i++) {
+            char temp = chars[i];
+            chars[i] = chars[length - i - 1];
+            chars[length - i - 1] = temp;
+            System.out.println(temp);
+        }
+			
+        
+        
+			
+		}
+
+	}
+
+

@@ -5,7 +5,7 @@
 	<parameter name="url" value="https://tutorialsninja.com/demo/"></parameter>
 	<parameter name="email" value="Test.demo@gmail.com"></parameter>
 	<parameter name="password" value="Test@12345"></parameter>
-
+	
   <test thread-count="5" name="Test">
     <classes>
       <class name="tutorials.demo._07_Parameters"/>

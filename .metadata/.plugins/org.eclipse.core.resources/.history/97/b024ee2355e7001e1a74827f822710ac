@@ -1,0 +1,22 @@
+package tutorials.demo;
+
+import javax.print.DocFlavor.CHAR_ARRAY;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		
+		
+		String str= "Geeks";
+				String nstr = "";
+        char ch;
+			
+        
+        
+			
+		}
+
+	}
+
+

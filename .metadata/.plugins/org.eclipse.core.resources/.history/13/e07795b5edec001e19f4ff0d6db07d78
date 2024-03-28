@@ -1,0 +1,10 @@
+package tutorials.demo;
+
+public class _07_Enabled_method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

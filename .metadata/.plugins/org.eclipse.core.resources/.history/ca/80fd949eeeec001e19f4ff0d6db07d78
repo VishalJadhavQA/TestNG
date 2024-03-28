@@ -1,0 +1,33 @@
+package tutorials.demo;
+
+import org.testng.annotations.Test;
+
+public class _08_Enabled_method {
+
+
+	@Test
+	public void loginwithvalidcredentials() {
+	
+		System.out.println("login with valid credentials");
+
+	}
+	
+	
+	
+	@Test(enabled = false)
+	public void loginwithInvalidcredentials() {
+		
+		System.out.println("login with Invalid credentials");
+		
+	}
+	
+	
+	
+	@Test
+	public void loginwithoutdcredentials() {
+		
+		System.out.println("login with valid credentials");
+
+	}
+
+}
