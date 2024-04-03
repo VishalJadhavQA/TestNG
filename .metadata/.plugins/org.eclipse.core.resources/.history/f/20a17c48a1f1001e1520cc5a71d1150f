@@ -1,0 +1,26 @@
+package Groups;
+
+public class _01_Login {
+
+	public void loginwithvalidcredentials(){
+		System.out.println("Login - login with valid credentials ");
+	}
+
+	public void loginwithInvalidemail() {
+		System.out.println("Login - login with Invalid email");
+	}
+	
+	public void loginwithInvalidpassword() {
+		System.out.println("Login - login with Invalid password ");
+	}
+	
+	public void loginwithInvalidcredentials() {
+		System.out.println("Login - login with Invalid credentials");
+	}
+	
+	public void loginwithoutvalidcredentials() {
+		System.out.println("Login - login without credentials");
+	}
+	
+
+}

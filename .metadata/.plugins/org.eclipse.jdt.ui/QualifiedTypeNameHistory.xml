@@ -20,10 +20,13 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.apache.commons.lang3.ObjectUtils.Null"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="com.beust.jcommander.Parameter"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
     <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
     <fullyQualifiedTypeName name="javax.print.DocFlavor.CHAR_ARRAY"/>
     <fullyQualifiedTypeName name="java.lang.CharSequence"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Ignore"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,33 @@
+package Groups;
+
+public class _02_Register {
+	
+	public void registerByProvidingMandatoryFields() {
+		
+		System.out.println("Register - Register by providing mandatory fields");
+	}
+
+	
+	
+	public void registerByProvidingAllFields() {
+		
+		System.out.println("Register - Register by providing all fields");
+	}
+	
+	
+	
+	public void registerByNotProvidingAnyFields() {
+		
+		System.out.println("Register - Register by Not providing any fields");
+	}
+	
+	
+	public void registerByDuplicateEmail() {
+		
+		System.out.println("Register - Register by Not providing any fields");
+	}
+	
+	
+	
+	
+}

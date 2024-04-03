@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-28T16:03:34 IST" name="Default suite" finished-at="2024-03-28T16:03:34 IST" duration-ms="67">
+  <suite started-at="2024-04-03T16:53:42 IST" name="Suite" finished-at="2024-04-03T16:53:42 IST" duration-ms="142">
     <groups>
+      <group name="integration">
+        <method signature="_02_Login.loginwithvalidcredentials()[pri:1, instance:Groups._02_Login@1e0b4072]" name="loginwithvalidcredentials" class="Groups._02_Login"/>
+        <method signature="_03_Search.searchForValidProducts()[pri:1, instance:Groups._03_Search@791f145a]" name="searchForValidProducts" class="Groups._03_Search"/>
+        <method signature="_01_Register.registerByProvidingAllFields()[pri:2, instance:Groups._01_Register@5e600dd5]" name="registerByProvidingAllFields" class="Groups._01_Register"/>
+        <method signature="_03_Search.searchWithoutAnyTerm()[pri:3, instance:Groups._03_Search@791f145a]" name="searchWithoutAnyTerm" class="Groups._03_Search"/>
+        <method signature="_02_Login.loginwithoutprovidingcredentials()[pri:5, instance:Groups._02_Login@1e0b4072]" name="loginwithoutprovidingcredentials" class="Groups._02_Login"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="_02_Login.loginwithvalidcredentials()[pri:1, instance:Groups._02_Login@1e0b4072]" name="loginwithvalidcredentials" class="Groups._02_Login"/>
+        <method signature="_03_Search.searchForValidProducts()[pri:1, instance:Groups._03_Search@791f145a]" name="searchForValidProducts" class="Groups._03_Search"/>
+        <method signature="_03_Search.searchWithoutAnyTerm()[pri:3, instance:Groups._03_Search@791f145a]" name="searchWithoutAnyTerm" class="Groups._03_Search"/>
+        <method signature="_02_Login.loginwithoutprovidingcredentials()[pri:5, instance:Groups._02_Login@1e0b4072]" name="loginwithoutprovidingcredentials" class="Groups._02_Login"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-03-28T16:03:34 IST" name="Default test" finished-at="2024-03-28T16:03:34 IST" duration-ms="67">
-      <class name="tutorials.demo._08_Enabled_method">
-        <test-method signature="loginwithvalidcredentials()[pri:0, instance:tutorials.demo._08_Enabled_method@53aac487]" started-at="2024-03-28T16:03:34 IST" name="loginwithvalidcredentials" finished-at="2024-03-28T16:03:34 IST" duration-ms="16" status="PASS">
+    <test started-at="2024-04-03T16:53:42 IST" name="Test" finished-at="2024-04-03T16:53:42 IST" duration-ms="142">
+      <class name="Groups._02_Login">
+        <test-method signature="loginwithvalidcredentials()[pri:1, instance:Groups._02_Login@1e0b4072]" started-at="2024-04-03T16:53:42 IST" name="loginwithvalidcredentials" finished-at="2024-04-03T16:53:42 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithvalidcredentials -->
-      </class> <!-- tutorials.demo._08_Enabled_method -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method signature="loginwithoutprovidingcredentials()[pri:5, instance:Groups._02_Login@1e0b4072]" started-at="2024-04-03T16:53:42 IST" name="loginwithoutprovidingcredentials" finished-at="2024-04-03T16:53:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithoutprovidingcredentials -->
+      </class> <!-- Groups._02_Login -->
+      <class name="Groups._01_Register">
+        <test-method signature="registerByProvidingAllFields()[pri:2, instance:Groups._01_Register@5e600dd5]" started-at="2024-04-03T16:53:42 IST" name="registerByProvidingAllFields" finished-at="2024-04-03T16:53:42 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerByProvidingAllFields -->
+      </class> <!-- Groups._01_Register -->
+      <class name="Groups._03_Search">
+        <test-method signature="searchForValidProducts()[pri:1, instance:Groups._03_Search@791f145a]" started-at="2024-04-03T16:53:42 IST" name="searchForValidProducts" finished-at="2024-04-03T16:53:42 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForValidProducts -->
+        <test-method signature="searchWithoutAnyTerm()[pri:3, instance:Groups._03_Search@791f145a]" started-at="2024-04-03T16:53:42 IST" name="searchWithoutAnyTerm" finished-at="2024-04-03T16:53:42 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutAnyTerm -->
+      </class> <!-- Groups._03_Search -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

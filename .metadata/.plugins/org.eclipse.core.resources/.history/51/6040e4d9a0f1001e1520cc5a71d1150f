@@ -1,0 +1,16 @@
+package Groups;
+
+public class _01_Login {
+
+	public void loginwithvalidcredentials(){}
+
+	public void loginwithInvalidemail() {}
+	
+	public void loginwithInvalidpassword() {}
+	
+	public void loginwithInvalidcredentials() {}
+	
+	public void loginwithoutvalidcredentials() {}
+	
+
+}

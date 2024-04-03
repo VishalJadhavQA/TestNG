@@ -1,0 +1,20 @@
+package test;
+
+public class demo {
+
+	public static void main(String[] args) {
+		
+		String str = "Vishal Jadhav" ;
+		
+		char nstr;
+		
+		for(int i=0;i<str.length();i++) {
+			
+			nstr=str.charAt(i);
+			char ch;
+			nstr=
+			
+		}
+	}
+
+}

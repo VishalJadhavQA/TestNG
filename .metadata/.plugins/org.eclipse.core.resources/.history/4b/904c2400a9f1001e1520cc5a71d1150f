@@ -1,0 +1,36 @@
+package Groups;
+
+import org.testng.annotations.Test;
+
+public class _02_Register {
+	
+	@Test(priority = 1)
+	public void registerByProvidingMandatoryFields() {
+		
+		System.out.println("Register - Register by providing mandatory fields");
+	}
+
+	
+	@Test(priority = 2)
+	public void registerByProvidingAllFields() {
+		
+		System.out.println("Register - Register by providing all fields");
+	}
+	
+	
+	@Test(priority = 3)
+	public void registerByNotProvidingAnyFields() {
+		
+		System.out.println("Register - Register by not providing any fields");
+	}
+	
+	@Test(priority = 4)
+	public void registerByDuplicateEmail() {
+		
+		System.out.println("Register - Register by Duplicate Email address");
+	}
+	
+	
+	
+	
+}

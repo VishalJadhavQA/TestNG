@@ -1,0 +1,17 @@
+package Groups;
+
+public class _02_Register {
+	
+	public void registerbyprovidingmandatoryfields() {
+		
+		System.out.println("Register - Register by providing mandatory fields");
+	}
+
+	
+	
+	public void registerbyprovidinallfields() {
+		
+		System.out.println("Register - Register by providing all fields");
+	}
+	
+}
