@@ -4,9 +4,11 @@
 <!-- Code for running smoke test-->
 <suite name="Suite">
 	<groups>
-		<run>
+		<define name="both">
+			<include name="smoke"/>
 			<include name="all"/>
-		</run>
+			</define>
+		
 	</groups>
 		
 

@@ -3,7 +3,7 @@ package Groups;
 import org.testng.annotations.Test;
 
 
-@Test(groups = {"all"}) /*Partial group initialization*/
+@Test(groups = {"all"})
 public class _01_Register {
 	
 	@Test(priority = 1,groups = {"smoke"})

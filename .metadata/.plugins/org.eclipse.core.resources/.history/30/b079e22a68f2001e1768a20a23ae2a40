@@ -2,7 +2,6 @@ package Groups;
 
 import org.testng.annotations.Test;
 
-@Test(groups = {"all"}) /*Partial group initialization*/
 class _03_Search {
 	
 	@Test(priority = 1,groups = {"smoke","integration"})

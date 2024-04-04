@@ -2,7 +2,7 @@ package Groups;
 
 import org.testng.annotations.Test;
 
-@Test(groups = {"all"}) /*Partial group initialization*/
+@Test(groups = {"all"})
 public class _02_Login {
 	
 	@Test(priority = 1,groups = {"smoke","integration"})

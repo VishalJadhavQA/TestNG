@@ -4,7 +4,8 @@
 <!-- Code for running smoke test-->
 <suite name="Suite">
 	<groups>
-		<run>
+			<run>
+			<include name="smoke"/>
 			<include name="all"/>
 		</run>
 	</groups>

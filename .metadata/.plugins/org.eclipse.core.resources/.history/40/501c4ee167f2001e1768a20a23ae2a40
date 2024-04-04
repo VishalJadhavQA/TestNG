@@ -5,7 +5,7 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<include name="all"/>
+			<include name="smoke"/>
 		</run>
 	</groups>
 		
